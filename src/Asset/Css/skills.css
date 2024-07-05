@@ -1,0 +1,112 @@
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.skills :nth-child(odd) {
+    font-size: 13px ;
+    border-radius: 50px;
+}
+
+
+.banner:hover .banner-text:first-child {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.banner:hover .banner-text:last-child {
+  opacity: 1;
+  transform: translateY(-40%);
+}
+.banner-text:last-child {
+  opacity: 0;
+  transform: translateY(60%);
+}
+.banner:hover {
+  background: red;
+}
+
+.mylang {
+  background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 5px 32px 0 rgba(122, 122, 125, 0.37);
+    backdrop-filter: blur( 80px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    color:#fff;
+  }
+  .mylang h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+  }
+
+  .lang {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .lang-img {
+    width: 70px;
+    cursor: pointer;
+    height: 70px;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(23, 32, 61);
+    /* box-shadow: 0px 3px 5px rgb(16 70 197 / 20%); */
+  }
+
+.skillimg{
+  display: inline-block;
+  border-radius: 50%;
+  background: rgb(23, 32, 61);
+  padding: 20px;
+  /* border: 1px solid rgb(23, 32, 61); */
+      box-shadow: 0px 3px 7px rgb(16 70 197 / 30%);
+
+}
+.skillimg:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  box-shadow: 2px 3px 16px rgba(70, 114, 217, 0.3);
+}
+
+
+  .lang-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lang-info img {
+    width: 48px;
+    height: 48px;
+  }
+  .lang-info p {
+    font-size: 13px;
+  }
+ 
+  .mylang .level {
+    color: #e6cc79 !important;
+  }
+ 
+  /* responsive */
+  @media only screen and (max-width: 768px) {
+    .progress-title {
+      text-align: center;
+    }
+    .progress-title h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .progress-container {
+      padding: 50px 20px;
+    }
+  }
+
+
+ 
+    

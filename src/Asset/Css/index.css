@@ -1,0 +1,15 @@
+.contact-me:hover {
+    background-color: #15622c;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.hello {
+ 
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}

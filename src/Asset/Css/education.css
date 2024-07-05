@@ -1,0 +1,24 @@
+.card-shadow {
+    box-shadow: 1px 1px 4px 0px #EDE7F6 !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    margin: 0 -30px !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+.education-title{
+    color: #59c378;
+   font-size: 25px;
+}
+.subheading {
+    color: #ccc !important;
+    font-size: 19px;
+    font-weight: 300 !important;
+    line-height: 1.7rem;
+    white-space: normal;
+}

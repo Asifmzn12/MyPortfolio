@@ -1,0 +1,272 @@
+
+.header-small-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
+    touch-action: pan-x;
+}
+.site-hero h1 {
+    font-size: 46px;
+    line-height: 1.2;
+}
+.site-btn-outline {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all .4s;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+.site-btn-outline:hover {
+    color: #fff;
+    background-color: var(--color-button-hover);
+}
+
+.cardimg {
+   
+    text-align: center;
+    -moz-box-shadow: 0px 3px 7px rgb(16 70 197 / 30%);
+    -webkit-box-shadow: 0px 3px 7px rgb(16 70 197 / 30%);
+    box-shadow: 0px 3px 7px rgb(16 70 197 / 30%);
+    background: rgb(23, 32, 61);
+        color: #fff;
+}
+.cardimg svg {
+    animation: scale-animation 3s infinite;
+}
+@keyframes scale-animation {
+    0% {
+        transform: scale(.8)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(.8)
+    }
+
+}
+.servicesCard{
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 5px 32px 0 rgba(122, 122, 125, 0.37);
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: #fff;
+}
+
+.contact-me:hover {
+    border: none;
+    color: var(--color-dark);
+    font-weight: 500;
+    margin-right: 30px;
+    transform: scale(0.9);
+}
+.contact-me {
+    border: none;
+    background-color: var(--primary-color);
+    font-size: 16px !important;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    width: 180px;
+    border-radius: 50px;
+    transition: all .2s ease;
+}
+
+.download-cv:hover {
+    background-color: #15622c;
+    color: white;
+    transition: all 0.3s ease;
+}
+.slevel {
+    border: 2px solid rgb(37, 43, 88);
+    border-radius: 10px;
+    width: 135px;
+    margin: auto;
+    color: #e6cc79!important;
+
+}
+
+
+.download-cv {
+    background: var(--color-button-hover);
+    border: none;
+    border: 1px solid var(--color-button);
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    width: 180px;
+    color:white;
+}
+
+
+
+.buttonLink {
+
+    background: var(--color-button-hover) !important;
+    border-radius: 5px;
+    color: #fff;
+    border: none !important;
+    font-size: 16px;
+
+
+}
+
+.learnmore {
+    color: #909faf !important;
+    color: var(--color-button);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+h1 {
+    font-size: 35px;
+}
+
+.mylang:hover {
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+     
+      .contact-me{
+        height: 55px;
+        width: 150px;
+      }
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color:white !important;
+}
+
+.scroll-to-top{
+    background: #59c378 !important;
+    border: none;
+    color: white !important;
+
+}
+.scroll-to-top svg[fill]{
+    fill: white !important;
+}
+@media screen and (max-width:768px) {
+     
+    .title p{
+   font-size: 14px !important;
+    }
+}
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+    background-color: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; 
+  }
+  .loader-text {
+    margin: 10px 0px 0px 20px; 
+    font-size: 2rem;
+    color: #ffffff; 
+    font-weight: 700;
+    font-family: inherit;
+
+
+  }
+
+  .social-icons a{
+    text-decoration: none;
+  }
+  .social-icons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+   
+   
+}
+.fa-whatsapp, .fa-envelope,.fa-linkedin-in {
+    color: #fff !important;
+    border: 1px solid #fff;
+    transition: all 0.2s ease-in-out;
+}
+.fa-whatsapp:hover {
+    background-color: #25d366;
+}
+.fa-linkedin-in:hover {
+    background-color: #0077b5;
+}
+.fa-envelope:hover{
+    background-color: #d44638;
+}
+
+.abouttxt{
+    font-size: 17px !important;
+    line-height: 30px;
+}
+.site-section-title {
+    font-size: 34px;
+    line-height: 1.1;
+}
+.body-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+@media only screen and (max-width: 576px) {
+    .site-section-title {
+        font-size: 24px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .slevel {
+        border: 2px solid rgb(37, 43, 88);
+        border-radius: 10px;
+        width: 108px !important;
+        margin: auto;
+        color: #e6cc79!important;
+    
+    }
+    .slevel{
+        border-radius: 25px !important;
+    }
+    .skills :nth-child(even) {
+        font-size: 12px !important;
+        border-radius: 50% !important;
+    }
+
+    .content h1 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+}
