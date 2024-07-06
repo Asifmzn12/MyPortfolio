@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { inject } from '@vercel/analytics';
 
 import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
-import {BallTriangle} from 'react-loader-spinner'
+import { ColorRing } from 'react-loader-spinner'
 import Header from './Components/Header';
 import Index from './Index';
 // import About from './About';
@@ -19,7 +19,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-  
+
 
     // Simulate an API call or other asynchronous tasks
     setTimeout(() => {
@@ -30,20 +30,18 @@ function App() {
   return (
     <Router>
       {loading ? (
-        <div className="loader-container">
-        <BallTriangle
-        height="60"
-        width="60"
-        color="#fff"
-        ariaLabel=""
-        wrapperStyle={{}}
-        wrapperClass=""
-        visible={true}
-      />
-        <p className="fw-bold">Thank You For Visiting my portfolio</p> 
-        
-      
-      </div>
+        <div className="loader-container d-flex flex-column gap-3">
+          <ColorRing visible={true}
+            height="80"
+            width="80"
+            ariaLabel="color-ring-loading"
+            wrapperStyle={{}}
+            wrapperClass="color-ring-wrapper"colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+          />
+          <h4 className="fw-bold">Thank You For Visiting my portfolio</h4>
+
+
+        </div>
       ) : (
         <div>
           <Header />
