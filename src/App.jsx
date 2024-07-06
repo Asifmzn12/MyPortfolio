@@ -24,7 +24,7 @@ function App() {
     // Simulate an API call or other asynchronous tasks
     setTimeout(() => {
       setLoading(false); // Set loading to false after tasks are completed
-    }, 1000); // Simulated 2 seconds delay, adjust as needed
+    }, 2000); // Simulated 2 seconds delay, adjust as needed
   }, []);
 
   return (
@@ -32,15 +32,15 @@ function App() {
       {loading ? (
         <div className="loader-container">
         <BallTriangle
-        height="80"
-        width="80"
-        color="#11772f"
-        ariaLabel="circles-loading"
+        height="60"
+        width="60"
+        color="#fff"
+        ariaLabel=""
         wrapperStyle={{}}
         wrapperClass=""
         visible={true}
       />
-        <p className="loader-text">Thank You For Visiting my portfolio</p> 
+        <p className="fw-bold">Thank You For Visiting my portfolio</p> 
         
       
       </div>

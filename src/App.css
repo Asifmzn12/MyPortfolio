@@ -181,6 +181,10 @@ h1 {
    font-size: 14px !important;
     }
 }
+
+.hero-section .site-btn-outline{
+    max-width: 200px;
+}
 .loader-container {
     display: flex;
     justify-content: center;
