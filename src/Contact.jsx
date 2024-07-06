@@ -152,7 +152,7 @@ function Contact() {
                                 {formErrors.message && <span className="error-message">{formErrors.message}</span>}
                             </div>
                             <div className="col-md-12">
-                                <button className="contact-me" type="submit">
+                                <button className="site-btn-outline text-dark" type="submit">
                                     Send Message
                                 </button>
                             </div>

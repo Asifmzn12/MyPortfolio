@@ -15,17 +15,18 @@ function WhatIDo() {
 
                     {
                         Work.ServicesIcons.map((Data) => (
-                            <div data-aos="fade-right" className=' col-sm-6 col-6 col-md-4 col-lg-3 my-2 ' key={Data.id} >
+                            <div data-aos="fade-right" className=' col-sm-6  col-md-4 col-lg-3 my-2 ' key={Data.id} >
                                 <Card className='mylang position-relative overflow-hidden '>
 
                                     <Card.Body className='d-flex flex-column justify-content-center  align-items-center gap-lg-3 gap-1 position-relative '>
                                         <div className="skillimg">
-                                            <Data.icons fill="#59c378" fontSize={"56px"} loading="lazy" />
+                                            <Data.icons fill="#fff" fontSize={"56px"} loading="lazy" />
 
                                         </div>
 
 
                                         <Card.Text className='mb-0 fw-bold'>{Data.title}</Card.Text>
+                                        <p className="mb-0">{Data.para}</p>
 
                                         <div>
 

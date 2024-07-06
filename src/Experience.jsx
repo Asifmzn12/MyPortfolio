@@ -17,8 +17,8 @@ function Experience() {
               contentStyle={{ background: '#000', color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid  rgb(255 255 255)' }}
              
-              iconStyle={{ background: 'rgba(255, 255, 255,1)', color: '#fff' }}
-              icon={<img src={experience.img} className='img-fluid' alt="Experience" />}
+              iconStyle={{ background: 'rgba(255, 255, 255,1)', color: '#fff',width:"10",height:"10" }}
+              // icon={<img src={experience.img} className='img-fluid' alt="Experience" />}
 
             >
                <p className='fw-bold my-2'>{experience.date}</p>

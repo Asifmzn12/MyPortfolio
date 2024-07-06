@@ -7,3 +7,18 @@
     color: #59c378;
     transition: all 0.2s ease-in;
 }
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline--two-columns .vertical-timeline-element-icon {
+        width: 20px;
+        height: 20px;
+        left: 51%;
+        margin-left: -23px;
+    }
+}
+
+.vertical-timeline-element-icon{
+width: 20px;
+height: 20px;
+left: 10px;
+
+}
