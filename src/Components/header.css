@@ -17,21 +17,7 @@
 
 
 
-/* .nav-link:after {
-    content: '';
-    display: none;
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--bs-nav-link-color);
-    transition: width 0.3s ease;
-}
 
-.nav-link:hover:after {
-    width: 100%;
-} */
 .navbar {
     padding: 20px 0;
     position: relative;
@@ -42,10 +28,10 @@
 .nav-bg {
     
 
-    background: rgba( 255, 255, 255, 0 );
+    background: rgba( 255, 255, 255, 0.022 );
     box-shadow: 0 5px 32px 0 rgba(122, 122, 125, 0.37);
-    backdrop-filter: blur( 80px );
-    -webkit-backdrop-filter: blur( 20px );
+    backdrop-filter: blur(99px);
+    -webkit-backdrop-filter: blur( 99px);
     border-radius: 10px;
     border: 2px solid rgba( 255, 255, 255, 0.18 );
 
