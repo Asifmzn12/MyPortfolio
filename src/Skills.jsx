@@ -3,14 +3,14 @@ import { data } from './config/skillscustomapi';
 
 function Skills() {
   return (
-    <div className='container py-5'>
-      <h2 className="text-center fw-bold mb-5">Skills</h2>
+    <div className='container py-lg-4 py-3'>
+      <h2 className="text-center  mb-lg-5 mb-3">Skills</h2>
 
       <div className='row justify-content-md-start justify-content-center   align-items-center text-center'>
 
         {
           data.map((skills) => (
-            <div data-aos="fade-right" className=' col-sm-6 col-6 col-md-4 col-lg-3 my-2 ' key={skills.id} >
+            <div  className=' col-sm-6 col-6 col-md-4 col-lg-3 my-2 ' key={skills.id} >
               <Card className='mylang skills position-relative overflow-hidden '>
               
                 <Card.Body className='d-flex flex-column justify-content-center  align-items-center gap-lg-3 gap-1 position-relative '>

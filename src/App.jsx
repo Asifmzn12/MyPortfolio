@@ -2,9 +2,7 @@ import { useState, useEffect } from 'react';
 import { inject } from '@vercel/analytics';
 
 import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
-import {Circles} from 'react-loader-spinner'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import {BallTriangle} from 'react-loader-spinner'
 import Header from './Components/Header';
 import Index from './Index';
 // import About from './About';
@@ -21,29 +19,28 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    AOS.init();
-    AOS.refresh();
+  
 
     // Simulate an API call or other asynchronous tasks
     setTimeout(() => {
       setLoading(false); // Set loading to false after tasks are completed
-    }, 2000); // Simulated 2 seconds delay, adjust as needed
+    }, 1000); // Simulated 2 seconds delay, adjust as needed
   }, []);
 
   return (
     <Router>
       {loading ? (
         <div className="loader-container">
-        <Circles
+        <BallTriangle
         height="80"
         width="80"
-        color="#4fa94d"
+        color="#11772f"
         ariaLabel="circles-loading"
         wrapperStyle={{}}
         wrapperClass=""
         visible={true}
       />
-        <div className="loader-text">Thank You For Visiting my portfolio</div> 
+        <p className="loader-text">Thank You For Visiting my portfolio</p> 
         
       
       </div>

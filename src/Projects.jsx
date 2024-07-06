@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Container } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
 import { AiOutlineLaptop, AiFillGithub } from "react-icons/ai";
 import { projects } from "./config/projectcustomapi";
@@ -25,8 +24,8 @@ function Projects() {
   const renderProjects = (projectList) => {
     return projectList.map((projectData) => (
       <div
-        data-aos="fade-right"
-        className="col-lg-5 col-xl-4 mt-md-2 mt-lg-2 mt-xl-4"
+      
+        className="col-sm-6 col-xl-4  mt-md-4 mt-lg-2 mt-xl-4 d-flex"
         key={projectData.id}
       >
         <div className="mylang p-3">
@@ -70,12 +69,12 @@ function Projects() {
   };
 
   return (
-    <Container className="py-5">
-      <h2 className="text-center fw-bold mb-5">Projects</h2>
+    <div className='container py-lg-4 py-3'>
+    <h2 className="text-center ">Projects</h2>
 
-      <div className="row justify-content-md-center justify-content-xl-start align-items-center gap-3 gy-3 gap-xl-0">
+      <div className="row row-gap-3 ">
         <div className='col-12 d-flex justify-content-center'>
-          <Nav variant="pills" className='gap-2' defaultActiveKey="customTemplate" onSelect={(selectedKey) => setActiveTab(selectedKey)}>
+          <Nav variant="pills" className='gap-2 justify-content-center' defaultActiveKey="customTemplate" onSelect={(selectedKey) => setActiveTab(selectedKey)}>
             <Nav.Item className=''>
               <Nav.Link className='site-btn-outline' eventKey="customTemplate">Templates</Nav.Link>
             </Nav.Item>
@@ -90,7 +89,7 @@ function Projects() {
 
         {renderProjects(projectList)}
       </div>
-    </Container>
+    </div>
   );
 }
 

@@ -6,8 +6,8 @@ import experienceData from './config/experiencecustomapi';
 
 function Experience() {
   return (
-    <div className="container py-md-5 py-3">
-      <h2 className="text-center fw-bold mb-5">Experience</h2>
+    <div className="container py-lg-4 py-3">
+      <h2 className="text-center mb-3">Experience</h2>
       <div className='Stepper'>
         <VerticalTimeline className='w-100 mw-100'>
           {experienceData.map((experience, index) => (
@@ -15,7 +15,6 @@ function Experience() {
               key={index}
               className="vertical-timeline-element--work"
               contentStyle={{ background: '#000', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid  rgb(255 255 255)' }}
              
               iconStyle={{ background: 'rgba(255, 255, 255,1)', color: '#fff',width:"10",height:"10" }}
               // icon={<img src={experience.img} className='img-fluid' alt="Experience" />}

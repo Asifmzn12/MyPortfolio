@@ -1,6 +1,6 @@
 
 .header-small-title {
-    font-size: 24px;
+    font-size: 19px;
     margin-bottom: 10px;
     scroll-behavior: smooth;
     touch-action: pan-x;
@@ -8,6 +8,9 @@
 .site-hero h1 {
     font-size: 46px;
     line-height: 1.2;
+}
+.mylang .para{
+    font-size: 15px;
 }
 .site-btn-outline {
     position: relative;
@@ -164,7 +167,7 @@ h1 {
 }
 
 .scroll-to-top{
-    background: #59c378 !important;
+    background: var(--primary-color) !important;
     border: none;
     color: white !important;
 

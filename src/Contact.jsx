@@ -2,9 +2,6 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-
-import { Container } from "react-bootstrap";
 import { contactapi } from "./config/contactcustomapi";
 function Contact() {
     const [formData, setFormData] = useState({
@@ -78,9 +75,9 @@ function Contact() {
     };
 
     return (
-        <Container className="py-5">
+        <div className=" container py-5 ">
         <ToastContainer />
-            <h2 className="text-center fw-bold mb-5">Contact</h2>
+            <h2 className="text-center mb-md-5 mb-4 ">Contact</h2>
 
             <div className="row justify-content-md-around justify-content-center  gap-md-2 gap-lg-0 gap-4  ">
                 <div className="col-md-5 d-flex flex-column gap-3 gap-lg-5">
@@ -115,7 +112,7 @@ function Contact() {
                                     value={formData.user_name}
                                     onChange={(e) => setFormData({ ...formData, user_name: e.target.value })}
                                 />
-                                {formErrors.user_name && <span className="error-message">{formErrors.user_name}</span>}
+                                {formErrors.user_name && <p className="error-message ms-2 text-danger">{formErrors.user_name}</p>}
                             </div>
                             <div className="col-md-6">
                                 <input
@@ -126,7 +123,7 @@ function Contact() {
                                     value={formData.user_email}
                                     onChange={(e) => setFormData({ ...formData, user_email: e.target.value })}
                                 />
-                                {formErrors.user_email && <span className="error-message">{formErrors.user_email}</span>}
+                                {formErrors.user_email && <p className="error-message ms-2 text-danger">{formErrors.user_email}</p>}
                             </div>
                             <div className="col-md-12">
                                 <input
@@ -137,7 +134,7 @@ function Contact() {
                                     value={formData.subject}
                                     onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                                 />
-                                {formErrors.subject && <span className="error-message">{formErrors.subject}</span>}
+                                {formErrors.subject && <p className="error-message ms-2 text-danger">{formErrors.subject}</p>}
                             </div>
                             <div className="col-md-12 mb-2">
                                 <textarea
@@ -149,10 +146,10 @@ function Contact() {
                                     value={formData.message}
                                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                                 />
-                                {formErrors.message && <span className="error-message">{formErrors.message}</span>}
+                                {formErrors.message && <p className=" ms-2 error-message text-danger">{formErrors.message}</p>}
                             </div>
                             <div className="col-md-12">
-                                <button className="site-btn-outline text-dark" type="submit">
+                                <button className="site-btn-outline" type="submit">
                                     Send Message
                                 </button>
                             </div>
@@ -162,7 +159,7 @@ function Contact() {
 
                 </div>
             </div>
-        </Container>
+        </div>
     );
 }
 
