@@ -12,8 +12,6 @@ import "./Asset/Css/form.css"
 import "./Asset/Css/index.css"
 import "./Asset/Css/project.css"
 import "./Asset/Css/skills.css"
-import "./Asset/Css/typewriter.css"
-
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

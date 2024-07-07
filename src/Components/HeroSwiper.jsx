@@ -19,13 +19,13 @@ const MySwiper = () => {
       className="mySwiper"
     >
       <SwiperSlide>
-        <img src='image/Walker.png' className='h-100' alt="Slide 1" />
+        <img src='images/Walker.webp' className='h-100' alt="Slide 1" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src='https://www.createdbymunish.com/images/web-mock-02.jpg' className='img-fluid' alt="Slide 2" />
+        <img src='images/slider2.webp' className='img-fluid' alt="Slide 2" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src='https://www.createdbymunish.com/images/web-mock-03.jpg' className='img-fluid' alt="Slide 3" />
+        <img src='images/slider3.webp' className='img-fluid' alt="Slide 3" />
       </SwiperSlide>
      
     </Swiper>

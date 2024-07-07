@@ -5,8 +5,8 @@ function WhatIDo() {
         <>
             <div className='container py-lg-4 py-3'>
                 <div className=" d-flex flex-column align-items-center mb-lg-5 mb-3">
-                    <p className="site-subtitle-text fw-bold">What i do</p>
-                    <h2 className="site-section-title text-center">Innovative Design &amp; Development Services</h2>
+                    <h2 className="">What i do</h2>
+                    <h4 className=" text-center">Innovative Design &amp; Development Services</h4>
                 </div>
 
 

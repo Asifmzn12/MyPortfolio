@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --grey-light: #f2f7f9;
     --grey: #ecedf3;
     --color-white: #fff;
@@ -59,4 +59,39 @@ a {
 }
 .h2 {
     color: #59c378 !important;
-}
+} */
+
+
+
+.theme-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #f8f9fa;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    z-index: 9999;
+  }
+  
+  .theme-toggler:hover {
+    background-color: #e2e6ea;
+    color: #000;
+  }
+  
+  .theme-toggler svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+  .scroll-to-top{
+    right: 30 !important;
+  }
+  
+ 

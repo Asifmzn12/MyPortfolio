@@ -2,7 +2,7 @@ export const projects = {
     customTemplate: [
         {
             id: 1,
-            image: '/image/portfolio2.png',
+            image: '/images/portfolio2.webp',
             projectName: 'Freelancer Portfolio',
             source: "#",
             demo: "https://web-portfolio-theme.vercel.app/",
@@ -11,7 +11,7 @@ export const projects = {
       
         {
             id: 2,
-            image: '/image/milton-ui.png',
+            image: '/images/milton-ui.webp',
             projectName: 'Milton React Landing Page UI',
             source: "#",
             demo: "https://milton-asifmzn12.vercel.app/",
@@ -19,7 +19,7 @@ export const projects = {
         },
         {
             id: 3,
-            image: '/image/cantech.png',
+            image: '/images/cantech.webp',
             projectName: 'Web Technology Landing Page',
             source: "#",
             demo: "https://cantech.vercel.app/",
@@ -28,7 +28,7 @@ export const projects = {
         
         {
             id: 4,
-            image: '/image/TodoApp.png',
+            image: '/images/TodoApp.webp',
             projectName: 'Todo List',
             source: "#",
             demo: "https://todolist-here.vercel.app/",
@@ -40,7 +40,7 @@ export const projects = {
     customWebsite: [
         {
             id: 1,
-            image: '/image/walkerLuxery.png',
+            image: '/images/walkerLuxery.webp',
             projectName: 'Walker Luxury',
             source: "#",
             demo: "https://walker-demo.netlify.app/home",
@@ -48,7 +48,7 @@ export const projects = {
         },
          {
             id: 2,
-            image: '/image/Limitless.png',
+            image: '/images/Limitless.webp',
             projectName: 'Limitless',
             source: "#",
             demo: "https://limitless-asifmzn12.vercel.app/",
@@ -56,7 +56,7 @@ export const projects = {
         },
         {
             id: 3,
-            image: '/image/website.png',
+            image: '/images/website.webp',
             projectName: 'Frontend Website',
             source: "#",
             demo: "https://mywebsite-asifmzn12s-projects.vercel.app/",
@@ -67,7 +67,7 @@ export const projects = {
     liveWebsite: [
         {
             id: 1,
-            image: '/image/Winoids.png',
+            image: '/images/Winoids.webp',
             projectName: 'Winoids',
             source: "#",
             demo: "https://www.winoids.com/",
@@ -75,7 +75,7 @@ export const projects = {
         },
         {
             id: 2,
-            image: '/image/Megatask.png',
+            image: '/images/Megatask.webp',
             projectName: 'Megatask Web',
             source: "#",
             demo: "https://megataskweb.com/",
@@ -83,7 +83,7 @@ export const projects = {
         },
         {
             id: 3,
-            image: '/image/homestation.png',
+            image: '/images/homestation.webp',
             projectName: 'Homestation',
             source: "#",
             demo: "https://homestation.ae/",

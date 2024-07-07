@@ -25,10 +25,13 @@
     text-decoration: none;
     transition: all 0.3s ease-in;
     border-radius: 50px !important;
+    outline: none;
 }
 .site-btn-outline:hover {
     color: #fff;
     background-color: var(--color-button-hover);
+    border: 1px solid #fff;
+
 }
 
 .cardimg {
@@ -224,7 +227,7 @@ h1 {
 }
 .fa-whatsapp, .fa-envelope,.fa-linkedin-in {
     color: #fff !important;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     transition: all 0.2s ease-in-out;
 }
 .fa-whatsapp:hover {

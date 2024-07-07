@@ -56,12 +56,12 @@
 }
 
 .navbar-toggler-icon {
-    background-image: url("/image/menu2.svg") !important;
+    background-image: url("/images/menu2.svg") !important;
     transition: background-image 0.3s ease-in;
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
-    background-image: url("/image/close.svg") !important;
+    background-image: url("/images/close.svg") !important;
 }
 
 .navbar-toggler:focus {

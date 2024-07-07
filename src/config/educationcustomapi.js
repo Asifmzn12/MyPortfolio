@@ -9,7 +9,7 @@ export const education=[
     },
     {
         id:2,
-        image:'/image/Intermediate.png',
+        image:'/images/Intermediate.webp',
         Course:"Intermediate",
         CollegeName:'D A V Inter College Muzaffarnagar',
         Board:"UP Board",
@@ -17,7 +17,7 @@ export const education=[
      },
      {
         id:3,
-        image:'/image/Graduation.png',
+        image:'/images/Graduation.webp',
         Course:"BCA",
         CollegeName:'D A V  College Muzaffarnagar',
         Board:"CSS University Meerut ",
@@ -25,7 +25,7 @@ export const education=[
      },
      {
         id:4,
-        image:'/image/master.png',
+        image:'/images/master.webp',
         Course:"MCA",
         CollegeName:'Shri Ram Group Of Colleges Muzaffarnagar',
         Board:"AKTU",

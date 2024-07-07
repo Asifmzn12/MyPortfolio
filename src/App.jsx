@@ -12,6 +12,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Components/Footer';
+import ThemeToggler from './Components/Themetoggler';
 
 function App() {
   inject();
@@ -45,6 +46,8 @@ function App() {
       ) : (
         <div>
           <Header />
+          <ThemeToggler/>
+          
           <Routes>
             <Route path="/" element={<Outlet />}>
               <Route index element={<Index />} />

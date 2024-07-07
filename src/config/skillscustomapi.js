@@ -1,50 +1,50 @@
 export const data=[
   {
    id:1,
-   img:'/image/html.png',
+   img:'/images/html.webp',
    SkillName:"HTML",
    level:"Expert"
   },
   {
     id:2,
-    img:"/image/css3.png",
+    img:"/images/css3.webp",
     SkillName:"Css",
     level:"Expert"
    },
    {
     id:3,
-    img:"/image/bootstrap.png",
+    img:"/images/bootstrap.webp",
     SkillName:"Bootstrap",
     level:"Expert"
    },
    {
     id:4,
-    img:"/image/javascript.png",
+    img:"/images/javascript.webp",
     SkillName:"JavaScript",
     level:"Intermediate"
    },
    {
      id:5,
-     img:"/image/react.png",
+     img:"/images/react.webp",
      SkillName:"React",
      level:"Intermediate"
     },
    
     {
       id:6,
-      img:"/image/tailwind_css.png",
+      img:"/images/tailwind_css.webp",
       SkillName:"Tailwind",
       level:"Intermediate"
      },
      {
       id:7,
-      img:"/image/git.png",
+      img:"/images/git.webp",
       SkillName:"Git",
       level:"Intermediate"
      },
      {
       id:8,
-      img:"/image/Figma.png",
+      img:"/images/Figma.webp",
       SkillName:"Figma",
       level:"Intermediate"
      }
