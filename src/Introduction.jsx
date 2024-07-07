@@ -22,15 +22,13 @@ function Introduction() {
                                 <div className="social d-flex align-items-center gap-3">
                                     <span>Follow me : </span>
                                     <div className="social-icons d-flex gap-3 justify-content-center justify-content-md-start">
-                                        <a href="#">
-                                            <i className="fa-brands fa-whatsapp " title="Whatsapp"></i>
-
+                                        <a href="https://wa.me/8868873958" target="_blank" rel="noreferrer">
+                                            <i className="fa-brands fa-whatsapp" title="Whatsapp"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="mailto:aliiasif3958@gmail.com" target="_blank" rel="noreferrer">
                                             <i className="fa-regular fa-envelope" title="Mail"></i>
                                         </a>
-
-                                        <a href="#">
+                                        <a href="https://linkedin.com/in/asif-ali-mzn" target="_blank" rel="noreferrer">
                                             <i className="fa-brands fa-linkedin-in" title="LinkedIn"></i>
                                         </a>
                                     </div>
