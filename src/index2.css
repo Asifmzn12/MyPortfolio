@@ -75,8 +75,8 @@ a {
     color: #333;
     transition: background-color 0.3s ease, color 0.3s ease;
     position: fixed;
-    right: 30px;
-    bottom: 100px;
+    right: 0;
+    bottom: 40px;
     z-index: 9999;
   }
   

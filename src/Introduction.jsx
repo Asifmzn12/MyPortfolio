@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-// import { AiOutlineSend } from 'react-icons/ai'
-// import Typewriter from 'typewriter-effect';
-// import { Button } from "react-bootstrap";
+
 import About from "./About";
 import MySwiper from "./Components/HeroSwiper";
 import WhatIDo from "./WhatIDo";
