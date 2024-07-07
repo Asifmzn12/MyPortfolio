@@ -10,7 +10,7 @@ function Introduction() {
         <>
             <section>
                 <div className="container hero-section py-lg-5 py-3">
-                    <div className="row gy-4 justify-content-center align-items-center">
+                    <div className="row py-4 gy-4 justify-content-center align-items-center">
                         <div className="col-md-6  col-12 order-0 order-md-1">
                             <div className="content d-flex flex-column gap-3 align-items-lg-start">
                                 <div className="">

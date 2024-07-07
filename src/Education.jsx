@@ -32,7 +32,7 @@ const Education = () => {
       <SwiperSlide key={index} className=''>
        
               <Card className="">
-                <Card.Body className='bg-black py-3 d-flex flex-column'>
+                <Card.Body className='education-card py-3 d-flex flex-column'>
                 <Card.Title className='education-title'>{data.Course}</Card.Title>
                   <Card.Text className='subheading'>{`${data.CollegeName}`}</Card.Text>
                   <Card.Text className='subheading'>{data.Board}</Card.Text>

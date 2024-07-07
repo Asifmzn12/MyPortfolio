@@ -1,8 +1,8 @@
 import {FiDownload} from 'react-icons/fi'
 function About() {
   return (
-    <div className="container py-lg-5 py-3 mb-3 bg-white text-black rounded">
-      <div className="row align-items-center justify-content-center">
+    <div className="container  py-lg-5 py-3 mb-3 bg-white text-black rounded shadow">
+      <div className="row aboutme align-items-center justify-content-start">
        
         <div className="col-md-10 col-12 py-md-0 pt-lg-0 pt-3">
           <div className=" d-flex flex-column  gap-0 align-items-center align-items-lg-start">

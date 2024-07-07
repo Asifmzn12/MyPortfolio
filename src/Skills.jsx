@@ -13,10 +13,10 @@ function Skills() {
             <div  className=' col-sm-6 col-6 col-md-4 col-lg-3 my-2 ' key={skills.id} >
               <Card className='mylang skills position-relative overflow-hidden '>
               
-                <Card.Body className='d-flex flex-column justify-content-center  align-items-center gap-lg-3 gap-1 position-relative '>
+                <Card.Body className='d-flex flex-column justify-content-center  align-items-center gap-lg-3 gap-2 position-relative '>
                   <img src={skills.img} className='img-fluid skillimg'></img>
-                  <Card.Text className='mb-0 fw-bold'>{skills.SkillName}</Card.Text>
-                  <Card.Text className="level slevel mb-0" >{skills.level}</Card.Text>
+                  <Card.Text className='mb-0 fw-bold h5'>{skills.SkillName}</Card.Text>
+                  <Card.Text className="level slevel mb-0 " >{skills.level}</Card.Text>
                   <div>
 
                   </div>

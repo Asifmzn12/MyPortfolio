@@ -15,7 +15,7 @@ function WhatIDo() {
                     {
                         Work.ServicesIcons.map((Data) => (
                             <div className=' col-sm-6 col-lg-4 col-xl-3  my-2 d-flex ' key={Data.id} >
-                                <div className='mylang d-flex flex-column align-items-start justify-content-start p-4 gap-2 '>
+                                <div className='mylang d-flex flex-column align-items-start justify-content-start p-4 gap-3 '>
 
                                     <div className="skillimg align-self-start">
                                         <Data.icons fill="#fff" fontSize={"56px"} loading="lazy" />

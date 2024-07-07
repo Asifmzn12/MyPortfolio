@@ -166,18 +166,10 @@ h1 {
 }
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color:white !important;
+    color:white;
 }
 
-.scroll-to-top{
-    background: var(--primary-color) !important;
-    border: none;
-    color: white !important;
 
-}
-.scroll-to-top svg[fill]{
-    fill: white !important;
-}
 @media screen and (max-width:768px) {
      
     .title p{

@@ -2,17 +2,16 @@
     --grey-light: #f2f7f9;
     --grey: #ecedf3;
     --color-white: #fff;
-    --color-black:#000;
-  
+    --color-black: #000;
     --color-special-color: #eff30e;
     --color-button-hover: #59c378;
-    
-   
-    --primary-color:#11772f;
-  
-    
+    --primary-color: #11772f;
+    --color-dark: #000;
+    --svg-dark-fill: #fff; /* Default SVG fill color for dark mode */
+    --svg-light-fill: #000; /* Default SVG fill color for light mode */
 }
 
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -20,49 +19,173 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-html{
+html {
     height: 100%;
     box-sizing: border-box;
 }
+
 body {
-    font-family: poppins, sans-serif !important;
-    font-size: .88rem;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
     min-height: 100%;
     overflow-x: hidden !important;
     scroll-behavior: smooth;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
     width: 100vw;
-    padding-top:90px;
+    padding-top: 90px;
     position: relative;
+}
+
+/* Dark Mode */
+body.dark-mode {
     background-color: var(--color-black);
-    color: var(--color-white);  
-  
+    color: var(--color-white);
 }
 
-#root {
-    overflow-x: hidden;
+body.dark-mode a,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode .contact-info,
+body.dark-mode .nav-item>.nav-link {
+    color: var(--color-white) !important;
 }
 
-.bg-color {
-    background-color: #0d012c !important;
-    color: white !important;
-
-}
-p {
-    font-size: 16px;
+body.dark-mode .skillimg {
+    background: rgb(23, 32, 61);
 }
 
-.title p {
-    font-size: 16px;
+body.dark-mode svg {
+    fill: var(--svg-dark-fill);
 }
 
-a {
-    font-size: 16px !important;
+/* Light Mode */
+body.light-mode {
+    background-color: var(--color-white);
+    color: var(--color-black) !important;
 }
-.h2 {
-    color: #59c378 !important;
+
+body.light-mode a,
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode h4,
+body.light-mode h5,
+body.light-mode h6,
+body.light-mode p,
+body.light-mode .project-info {
+    color: var(--color-black) !important;
+}
+
+body.light-mode svg {
+    fill: var(--svg-light-fill); /* Set fill color for SVGs in light mode */
+}
+
+body.light-mode .skillimg {
+    background: none; /* Remove background in light mode */
+}
+
+/* Ensure aboutme elements are not affected by dark mode */
+body.dark-mode .aboutme h3,
+body.dark-mode .aboutme p {
+    color: var(--color-black) !important;
+}
+
+/* Ensure that the theme toggler and contact info icons are properly styled */
+.theme-toggler svg,
+.contact-info svg {
+    fill: #000 !important;
+}
+body.light-mode .fa-whatsapp,
+body.light-mode .fa-envelope, 
+body.light-mode .fa-linkedin-in {
+    border: 2px solid #000;
+    color: var(--color-black) !important;
+}
+body.light-mode .mylang .level{
+    color: var(--color-black) !important;
+}
+body.dark-mode .education-card{
+    background-color: var(--color-black);
+}
+body.light-mode .education-card{
+    background-color: var(--color-white);
+}
+
+body.dark-mode .vertical-timeline-element-content{
+    background: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+body.light-mode .vertical-timeline-element-content{
+    background: #fff !important;
+    color: #000 !important;
+}
+body.dark-mode .vertical-timeline::before {
+    background: var(--color-white) !important;
+}
+body.light-mode .vertical-timeline::before {
+    background: var(--color-black) !important;
+}
+body.light-mode .vertical-timeline-element-icon{
+    background:var(--color-black) !important;
+    color: #fff !important;
+}
+body.light-mode .vertical-timeline-element-content-arrow{
+    border-right: 7px solid var(--color-black);
+}
+body.light-mode .nav-pills .nav-link{
+    background-color: var(--grey);
+}
+body.light-mode .active{
+    background-color: var(--primary-color) !important;
+    color: var(--color-white) !important;
+}
+body.dark-mode .email-me textarea{
+    background-color: var(--color-black) !important;
+    border: 1px solid #fff !important;
+}
+body.light-mode .email-me input,textarea{
+    background: var(--color-white) !important;
+    border: 1px solid var(--color-black) !important;
+    
+}
+body.light-mode .email-me input::placeholder {
+    color:#000 !important;
+
+}
+
+body.light-mode textarea::placeholder {
+    color:#000 !important;
+
+}
+body.light-mode .navbar-toggler-icon {
+    background-image: url("/images/light-menu.svg") !important;
+    background-color:unset;
+   
+}
+
+body.light-mode .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    background-image: url("/images/light-close.svg") !important;
+    background-color: unset;
+}
+
+body.light-mode .fa-whatsapp:hover, body.light-mode .fa-envelope:hover, body.light-mode .fa-linkedin-in:hover {
+    border: 1px solid #000;
+    color: var(--color-white) !important;
+}
+
+
+.navbar-brand img {
+    content: url('/images/logo.svg');
+}
+
+body.dark-mode .navbar-brand img {
+    content: url('/images/dark-logo.svg');
 }

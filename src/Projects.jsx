@@ -31,8 +31,8 @@ function Projects() {
         <div className="mylang p-3">
           <img className='img-fluid' src={projectData.image} alt={projectData.projectName} />
           <div className="py-4">
-            <div className="h5">{projectData.projectName}</div>
-            <div className="project-info">{projectData.summary}</div>
+            <h5 className="h5">{projectData.projectName}</h5>
+            <h4 className="project-info">{projectData.summary}</h4>
 
             <div className="row py-4 align-items-center fw-light">
               <div className="col-6 text-start">
