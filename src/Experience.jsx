@@ -6,7 +6,7 @@ import experienceData from './config/experiencecustomapi';
 
 function Experience() {
   return (
-    <div className="container py-lg-4 py-3">
+    <div className="container py-lg-4 py-5">
       <h2 className="text-center mb-3">Experience</h2>
       <div className='Stepper'>
         <VerticalTimeline className='w-100 mw-100'>

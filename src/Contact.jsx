@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { contactapi } from "./config/contactcustomapi";
+
 function Contact() {
     const [formData, setFormData] = useState({
         user_name: "",
@@ -49,6 +50,14 @@ function Contact() {
         return emailRegex.test(email);
     };
 
+    const handleNameChange = (e) => {
+        const { value } = e.target;
+        const regex = /^[a-zA-Z\s]*$/; // Only allows alphabetic characters and spaces
+        if (regex.test(value)) {
+            setFormData({ ...formData, user_name: value });
+        }
+    };
+
     const sendEmail = (e) => {
         e.preventDefault();
         const isValid = validateForm();
@@ -56,14 +65,12 @@ function Contact() {
         if (isValid) {
             emailjs.sendForm("service_req", "template_01xbp3a", e.target, "m0vWn-8VGOdFYFC_k")
             .then((result) => {
-                console.log(result)
+                console.log(result);
                 toast.success("Thank you for Your Message"); 
             }, (error) => {
                 console.log(error);
                 toast.error("Failed to send message. Please try again later.");
-
             });
-
 
             setFormData({
                 user_name: "",
@@ -75,30 +82,23 @@ function Contact() {
     };
 
     return (
-        <div className=" container py-5 ">
-        <ToastContainer />
-            <h2 className="text-center mb-md-5 mb-4 ">Contact</h2>
+        <div className="container py-5">
+            <ToastContainer />
+            <h2 className="text-center mb-md-5 mb-4">Contact</h2>
 
-            <div className="row justify-content-md-around justify-content-center  gap-md-2 gap-lg-0 gap-4  ">
+            <div className="row justify-content-md-around justify-content-center gap-md-2 gap-lg-0 gap-4">
                 <div className="col-md-5 d-flex flex-column gap-3 gap-lg-5">
-                    {
-                        contactapi.map((contactinfo, index) =>
-                            <div key={index} className="d-flex contact-info align-items-center">
-                                <div>
-                                    <i>{<contactinfo.icon />}</i>
-                                </div>
-                                <div>
-                                    <h5>{contactinfo.heading}</h5>
-                                    <h6>{contactinfo.text}</h6>
-                                </div>
-
-
-
+                    {contactapi.map((contactinfo, index) => (
+                        <div key={index} className="d-flex contact-info align-items-center">
+                            <div>
+                                <i>{<contactinfo.icon />}</i>
                             </div>
-
-                        )
-                    }
-
+                            <div>
+                                <h5>{contactinfo.heading}</h5>
+                                <h6>{contactinfo.text}</h6>
+                            </div>
+                        </div>
+                    ))}
                 </div>
                 <div className="col-md-7">
                     <form onSubmit={sendEmail} className="contact-form">
@@ -110,7 +110,7 @@ function Contact() {
                                     id="user_name"
                                     placeholder="Enter Your Name"
                                     value={formData.user_name}
-                                    onChange={(e) => setFormData({ ...formData, user_name: e.target.value })}
+                                    onChange={handleNameChange}
                                 />
                                 {formErrors.user_name && <p className="error-message ms-2 text-danger">{formErrors.user_name}</p>}
                             </div>
@@ -146,7 +146,7 @@ function Contact() {
                                     value={formData.message}
                                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                                 />
-                                {formErrors.message && <p className=" ms-2 error-message text-danger">{formErrors.message}</p>}
+                                {formErrors.message && <p className="ms-2 error-message text-danger">{formErrors.message}</p>}
                             </div>
                             <div className="col-md-12">
                                 <button className="site-btn-outline" type="submit">
@@ -155,8 +155,6 @@ function Contact() {
                             </div>
                         </div>
                     </form>
-
-
                 </div>
             </div>
         </div>

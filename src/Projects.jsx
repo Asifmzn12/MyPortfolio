@@ -69,7 +69,7 @@ function Projects() {
   };
 
   return (
-    <div className='container py-lg-4 py-3'>
+    <div className='container py-lg-4 py-4'>
     <h2 className="text-center ">Projects</h2>
 
       <div className="row row-gap-3 ">
