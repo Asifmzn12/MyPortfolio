@@ -18,15 +18,16 @@ const MySwiper = () => {
       modules={[Autoplay, EffectFade]}
       className="mySwiper"
     >
-      <SwiperSlide>
-        <img src='images/Walker.webp' className='h-100' alt="Slide 1" />
-      </SwiperSlide>
+     
+    <SwiperSlide>
+      <img src='images/slider3.webp' className='img-fluid' alt="Slide 1" />
+    </SwiperSlide>
       <SwiperSlide>
         <img src='images/slider2.webp' className='img-fluid' alt="Slide 2" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src='images/slider3.webp' className='img-fluid' alt="Slide 3" />
-      </SwiperSlide>
+      <img src='images/Walker.webp' className='h-100' alt="Slide 3" />
+    </SwiperSlide>
      
     </Swiper>
     </div>
