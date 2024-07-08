@@ -153,7 +153,9 @@ h1 {
     transition: all 0.4s ease;
 }
 
-
+.nav-pills .nav-item>.nav-link{
+    font-size: 14px;
+}
 
 
 
