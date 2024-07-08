@@ -92,6 +92,9 @@
 .navbar-toggler {
     transition: all 0.2 ease;
 }
+.nav-bg a{
+    font-size: 18px;
+}
 
 @media only screen and (max-width:576px) {
     .img {
