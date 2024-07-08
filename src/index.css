@@ -87,6 +87,9 @@ body.light-mode .project-info {
 body.light-mode svg {
     fill: var(--svg-light-fill); /* Set fill color for SVGs in light mode */
 }
+.site-btn-outline svg{
+    fill: #fff !important;
+}
 
 body.light-mode .skillimg {
     background: none; /* Remove background in light mode */

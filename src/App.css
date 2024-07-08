@@ -149,7 +149,7 @@ h1 {
 }
 
 .mylang:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     transition: all 0.4s ease;
 }
 

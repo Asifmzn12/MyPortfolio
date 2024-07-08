@@ -2,20 +2,19 @@ export const projects = {
     customTemplate: [
         {
             id: 1,
-            image: '/images/portfolio2.webp',
-            projectName: 'Freelancer Portfolio',
+            image: '/images/personal portfolio.png',
+            projectName: 'Portfolio',
             source: "#",
-            demo: "https://web-portfolio-theme.vercel.app/",
-            summary: "Curated showcase of expertise. Innovative designs, problem-solving prowess, and creative excellence. Dive into a world of passion, where ideas turn into impactful solutions."
+            demo: "#",
+            summary: "A personal showcase highlighting diverse projects and technical expertise. Features innovative designs and creative problem-solving, offering a deep dive into professional accomplishments and skills."
         },
-      
         {
             id: 2,
             image: '/images/milton-ui.webp',
             projectName: 'Milton React Landing Page UI',
             source: "#",
             demo: "https://milton-asifmzn12.vercel.app/",
-            summary: "Designed and implemented a modern and responsive landing page using React, showcasing key features and services. Focused on delivering an engaging user experience with smooth and interactive elements."
+            summary: "Modern and responsive landing page built with React. Emphasizes key features and services with a focus on engaging user experience and seamless interactivity."
         },
         {
             id: 3,
@@ -23,19 +22,24 @@ export const projects = {
             projectName: 'Web Technology Landing Page',
             source: "#",
             demo: "https://cantech.vercel.app/",
-            summary: "Designed and implemented a modern and responsive Landing Page of about us using React and Bootstrap, showcasing key features and services. Focused on delivering an engaging user experience with smooth and interactive elements."
+            summary: "A sleek landing page created using React and Bootstrap. Highlights core services and features while ensuring a smooth and captivating user journey."
         },
-        
         {
             id: 4,
             image: '/images/TodoApp.webp',
             projectName: 'Todo List',
             source: "#",
             demo: "https://todolist-here.vercel.app/",
-            summary: "Intuitive Todo List App. Simplified task management, reminders, and categories. Boosted productivity and organization. User-friendly interface for efficient task tracking and completion."
+            summary: "An intuitive Todo List App designed for efficient task management. Features simplified task tracking, reminders, and categorization to boost productivity and organization."
         },
-       
-
+        {
+            id: 5,
+            image: '/images/portfolio2.webp',
+            projectName: 'Freelancer Portfolio',
+            source: "#",
+            demo: "https://web-portfolio-theme.vercel.app/",
+            summary: "A curated portfolio for freelancers showcasing versatile skills and completed projects. Focuses on creative design and impactful solutions to demonstrate professional capabilities."
+        }
     ],
     customWebsite: [
         {
@@ -44,15 +48,15 @@ export const projects = {
             projectName: 'Walker Luxury',
             source: "#",
             demo: "https://walker-demo.netlify.app/home",
-            summary: "Designed and implemented a modern and responsive website using React and Bootstrap, showcasing key features and services. Focused on delivering an engaging user experience with smooth and interactive elements."
+            summary: "A luxurious website designed with HTML,Css,Bootstrap and Javascript. Highlights premium services and features, offering a refined and engaging user experience."
         },
-         {
+        {
             id: 2,
             image: '/images/Limitless.webp',
             projectName: 'Limitless',
             source: "#",
             demo: "https://limitless-asifmzn12.vercel.app/",
-            summary: "Designed and implemented a modern and responsive website using React and Bootstrap, showcasing key features and services. Focused on delivering an engaging user experience with smooth and interactive elements."
+            summary: "An elegant and responsive website built with React and Bootstrap. Focuses on key features and services, providing an immersive user experience."
         },
         {
             id: 3,
@@ -60,9 +64,8 @@ export const projects = {
             projectName: 'Frontend Website',
             source: "#",
             demo: "https://mywebsite-asifmzn12s-projects.vercel.app/",
-            summary: "Sleek frontend site. Intuitive design, easy navigation, and responsive interface for a seamless user experience. Tailored for simplicity, elegance, and gaining hands-on experience."
-        },
-       
+            summary: "A sleek frontend site with intuitive design and easy navigation. Offers a responsive interface tailored for simplicity, elegance, and hands-on experience."
+        }
     ],
     liveWebsite: [
         {
@@ -71,7 +74,7 @@ export const projects = {
             projectName: 'Winoids',
             source: "#",
             demo: "https://www.winoids.com/",
-            summary: "Designed and implemented a modern and responsive website using HTML, CSS, Bootstrap, and PHP showcasing key features and services. Focused on delivering an engaging user experience with smooth and interactive elements."
+            summary: "A modern and responsive website developed using HTML, CSS, Bootstrap, and PHP. Showcases key features and services with a focus on smooth and interactive user experience."
         },
         {
             id: 2,
@@ -79,7 +82,7 @@ export const projects = {
             projectName: 'Megatask Web',
             source: "#",
             demo: "https://megataskweb.com/",
-            summary: "Designed and implemented a modern and responsive website using HTML, CSS, Bootstrap, and PHP showcasing key features and services. Focused on delivering an engaging user experience with smooth and interactive elements."
+            summary: "An engaging website built with HTML, CSS, Bootstrap, and PHP. Highlights essential features and services, ensuring a captivating and user-friendly interface."
         },
         {
             id: 3,
@@ -87,7 +90,7 @@ export const projects = {
             projectName: 'Homestation',
             source: "#",
             demo: "https://homestation.ae/",
-            summary: "Designed and implemented a modern and responsive website using HTML, CSS, Bootstrap, and PHP showcasing key features and services. Focused on delivering an engaging user experience with smooth and interactive elements."
+            summary: "A responsive and modern website designed using HTML, CSS, Bootstrap, and PHP. Emphasizes smooth navigation and interactive elements to enhance user engagement."
         }
     ]
 }

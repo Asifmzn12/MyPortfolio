@@ -1,4 +1,5 @@
-import { FaPaintbrush, FaDesktop,  FaMobileScreenButton, FaGoogle } from "react-icons/fa6";
+import { FaPaintbrush, FaDesktop,  FaMobileScreenButton, } from "react-icons/fa6";
+import {FcSmartphoneTablet} from "react-icons/fc"
 export const Work = {
    
     ServicesIcons: [
@@ -20,7 +21,7 @@ export const Work = {
         },
         {
             id: 3,
-            icons: FaGoogle,
+            icons: FcSmartphoneTablet,
             title: "Responsive Design",
             background:"servicebox8",
             para:"Crafting responsive designs for your website, guaranteeing accessibility and engagement across all device."
