@@ -22,7 +22,7 @@ function Experience() {
             >
                <p className='fw-bold my-2'>{experience.date}</p>
               <h3 className="vertical-timeline-element-title">{experience.title}</h3>
-              <h5 className="vertical-timeline-element-subtitle my-2">{experience.company}</h5>
+              <h6 className="vertical-timeline-element-subtitle my-2">{experience.company}</h6>
               <p>
                 Role & Responsibilities: {experience.role}
               </p>
