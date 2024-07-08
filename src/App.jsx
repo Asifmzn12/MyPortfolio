@@ -31,7 +31,7 @@ function App() {
   return (
     <Router>
       {loading ? (
-        <div className="loader-container d-flex flex-column gap-3">
+        <div className="loader-container">
           <ColorRing visible={true}
             height="80"
             width="80"
