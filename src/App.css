@@ -272,4 +272,10 @@ h1 {
         font-size: 26px;
         line-height: 1.2;
     }
+    .skillimg{
+        padding: 10px !important;
+    }
+    .skillimg svg{
+     font-size: 40px;
+    }
 }
