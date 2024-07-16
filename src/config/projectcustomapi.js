@@ -10,6 +10,14 @@ export const projects = {
         },
         {
             id: 2,
+            image: '/images/postivious.png',
+            projectName: 'Positivus Landing Page UI',
+            source: "#",
+            demo: "https://positivus-web.vercel.app/",
+            summary: "Modern and responsive landing page built with React. Emphasizes key features and services with a focus on engaging user experience and seamless interactivity."
+        },
+        {
+            id: 3,
             image: '/images/milton-ui.webp',
             projectName: 'Milton React Landing Page UI',
             source: "#",
@@ -17,7 +25,7 @@ export const projects = {
             summary: "Modern and responsive landing page built with React. Emphasizes key features and services with a focus on engaging user experience and seamless interactivity."
         },
         {
-            id: 3,
+            id: 4,
             image: '/images/cantech.webp',
             projectName: 'Web Technology Landing Page',
             source: "#",
@@ -25,7 +33,7 @@ export const projects = {
             summary: "A sleek landing page created using React and Bootstrap. Highlights core services and features while ensuring a smooth and captivating user journey."
         },
         {
-            id: 4,
+            id: 5,
             image: '/images/TodoApp.webp',
             projectName: 'Todo List',
             source: "#",
@@ -33,7 +41,7 @@ export const projects = {
             summary: "An intuitive Todo List App designed for efficient task management. Features simplified task tracking, reminders, and categorization to boost productivity and organization."
         },
         {
-            id: 5,
+            id: 6,
             image: '/images/portfolio2.webp',
             projectName: 'Freelancer Portfolio',
             source: "#",
